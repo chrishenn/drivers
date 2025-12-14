@@ -3,7 +3,7 @@ set -euo pipefail
 sdir=$(dirname -- "$(readlink -f -- "${BASH_SOURCE[0]:-$0}")")
 
 src="$sdir/src"
-dst="$sdir/dst"
+dst="$sdir/drvr"
 
 mkdir -p $dst
 
