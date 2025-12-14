@@ -1,0 +1,93 @@
+; ************************************************************
+; ************************************************************
+; **  Filename: MeteorLakePCH-SSystem.inf                   **
+; **  Abstract: Assigns the null driver to devices          **
+; **            for yellow-bang removal and                 **
+; **            brands Intel(R) devices                     ** 
+; ************************************************************
+; ************************************************************
+
+[Version]
+Signature=$WINDOWS NT$
+Class=System
+ClassGUID={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%INTEL%
+CatalogFile=MeteorLakePCH-S.cat
+DriverVer=07/18/1968, 10.1.51.8
+PnpLockDown=1
+
+[SourceDisksNames]
+
+[SourceDisksFiles]
+
+[ControlFlags]
+ExcludeFromSelect=*
+
+[Manufacturer]
+%INTEL%=INTEL,NTx86,NTamd64
+
+[INTEL.NTx86]
+%PCI\VEN_8086&DEV_7F23Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F23
+%PCI\VEN_8086&DEV_7F20Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F20
+%PCI\VEN_8086&DEV_7F2FDesc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F2F
+%PCI\VEN_8086&DEV_7F24Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F24
+%PCI\VEN_8086&DEV_7F21Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F21
+%PCI\VEN_8086&DEV_7F58Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F58
+%PCI\VEN_8086&DEV_7F59Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F59
+%PCI\VEN_8086&DEV_7F69Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F69
+
+[INTEL.NTamd64]
+%PCI\VEN_8086&DEV_7F23Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F23
+%PCI\VEN_8086&DEV_7F20Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F20
+%PCI\VEN_8086&DEV_7F2FDesc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F2F
+%PCI\VEN_8086&DEV_7F24Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F24
+%PCI\VEN_8086&DEV_7F21Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F21
+%PCI\VEN_8086&DEV_7F58Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F58
+%PCI\VEN_8086&DEV_7F59Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F59
+%PCI\VEN_8086&DEV_7F69Desc%=Needs_NO_DRV,PCI\VEN_8086&DEV_7F69
+
+[Needs_NO_DRV]
+Include=machine.inf
+Needs=NO_DRV
+
+[Needs_NO_DRV.Services]
+Include=machine.inf
+Needs=NO_DRV.Services
+
+[Strings]
+INTEL="INTEL"
+PCI\VEN_8086&DEV_7F23Desc=" SMBus - 7F23"
+PCI\VEN_8086&DEV_7F20Desc=" P2SB - 7F20"
+PCI\VEN_8086&DEV_7F2FDesc=" Error Aggregation Handler (EAH) - 7F2F"
+PCI\VEN_8086&DEV_7F24Desc=" SPI (flash) Controller - 7F24"
+PCI\VEN_8086&DEV_7F21Desc=" PMC - 7F21"
+PCI\VEN_8086&DEV_7F58Desc=" Touch Host Controller 0 - 7F58"
+PCI\VEN_8086&DEV_7F59Desc=" Touch Host Controller 0 - 7F59"
+PCI\VEN_8086&DEV_7F69Desc=" HECI #2 - 7F69"
+
+
+
+
+; Copyright (c) 2003-2019 Intel Corporation
+; 
+; ********************************************************************************
+; Intel is making no claims of usability, efficacy or warranty.
+; ********************************************************************************
+; Information in this document is provided in connection with Intel products. No
+; license, express or implied, by estoppel or otherwise, to any intellectual
+; property rights is granted by this document. Intel assumes no liability
+; whatsoever, and Intel disclaims any express or implied warranty, relating to
+; sale and/or use of Intel products including liability or warranties relating to
+; fitness for a particular purpose, merchantability, or infringement of any
+; patent, copyright or other intellectual property right. Intel products are not
+; intended for use in medical, life saving, or life sustaining applications.
+; ********************************************************************************
+; Intel Corporation disclaims all warranties and liabilities for the use of this
+; document and the information contained herein, and assumes no responsibility for
+; any errors which may appear in this document, nor does Intel make a commitment
+; to update the information contained herein. Intel reserves the right to make
+; changes to this document at any time, without notice.
+; ********************************************************************************
+; ********************************************************************************
+; 
+; * Third-party brands and names are the property of their respective owners.
