@@ -1,0 +1,296 @@
+; Copyright (c) 2013 Qualcomm Technologies, Inc.
+; All Rights Reserved.
+; Qualcomm Technologies Proprietary and Confidential.
+
+
+[Version]
+Signature          = "$Windows NT$"
+Provider           = %ProviderName%
+Class              = Bluetooth
+CLASSGUID          = {e0cbf06c-cd8b-4647-bb8a-263b43f0f974};
+DriverVer = 07/23/2024,3.1.0.1314
+CatalogFile.NT     = btfilter.cat
+PnpLockdown        = 1
+
+[DestinationDirs]
+Btfilter.Files     = 12
+
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+[SourceDisksNames]
+1 = %SourceDisk%,,1
+
+[SourceDisksFiles]
+btfilter.sys = 1,,
+
+AthrBT_0x00190200.dfu = 1,,
+
+ramps_0x00190200.dfu = 1,,
+ramps_0x00190200_0106.dfu = 1,,
+ramps_0x00190200_0108.dfu = 1,,
+ramps_0x00190200_0109.dfu = 1,,
+ramps_0x00190200_010a.dfu = 1,,
+ramps_0x00190200_010c.dfu = 1,,
+ramps_0x00190200_010e.dfu = 1,,
+ramps_0x00190200_0110.dfu = 1,,
+ramps_0x00190200_0111.dfu = 1,,
+ramps_0x00190200_0112.dfu = 1,,
+ramps_0x00190200_011e.dfu = 1,,
+ramps_0x00190200_0120.dfu = 1,,
+ramps_0x00190200_1b3b.dfu = 1,,
+
+ramps_0x00190200_LEHP.dfu = 1,,
+ramps_0x00190200_0106_LEHP.dfu = 1,,
+ramps_0x00190200_0108_LEHP.dfu = 1,,
+ramps_0x00190200_0109_LEHP.dfu = 1,,
+ramps_0x00190200_010a_LEHP.dfu = 1,,
+ramps_0x00190200_010c_LEHP.dfu = 1,,
+ramps_0x00190200_010e_LEHP.dfu = 1,,
+ramps_0x00190200_0110_LEHP.dfu = 1,,
+ramps_0x00190200_0111_LEHP.dfu = 1,,
+ramps_0x00190200_0112_LEHP.dfu = 1,,
+ramps_0x00190200_011e_LEHP.dfu = 1,,
+ramps_0x00190200_0120_LEHP.dfu = 1,,
+ramps_0x00190200_1b3b_LEHP.dfu = 1,,
+
+[Manufacturer]
+%ManufacturerName% = QCABT,NTamd64
+
+[QCABT.NTamd64]
+%VID_0CF3&PID_E700% = QCABTUSBBORDID, USB\VID_0CF3&PID_E700
+%VID_0489&PID_E0F3% = QCABTUSB, USB\VID_0489&PID_E0F3
+%VID_0489&PID_E0FC% = QCABTUSBSWIFTPAIRLEA, USB\VID_0489&PID_E0FC
+%VID_0489&PID_E100% = QCABTUSB, USB\VID_0489&PID_E100
+%VID_0489&PID_E103% = QCABTUSBLEA, USB\VID_0489&PID_E103
+%VID_0489&PID_E10A% = QCABTUSBLEA, USB\VID_0489&PID_E10A
+%VID_0489&PID_E10D% = QCABTUSB, USB\VID_0489&PID_E10D
+%VID_0489&PID_E11B% = QCABTUSB, USB\VID_0489&PID_E11B
+%VID_0489&PID_E11C% = QCABTUSB, USB\VID_0489&PID_E11C
+%VID_0489&PID_E11F% = QCABTUSB, USB\VID_0489&PID_E11F
+%VID_0489&PID_E141% = QCABTUSBLEA, USB\VID_0489&PID_E141
+%VID_0489&PID_E14D% = QCABTUSBLEA, USB\VID_0489&PID_E14D
+%VID_2C7C&PID_0130% = QCABTUSB, USB\VID_2C7C&PID_0130
+%VID_2C7C&PID_0131% = QCABTUSB, USB\VID_2C7C&PID_0131
+%VID_2C7C&PID_0132% = QCABTUSB, USB\VID_2C7C&PID_0132
+%VID_13D3&PID_3623% = QCABTUSBLEA, USB\VID_13D3&PID_3623
+%VID_13D3&PID_3624% = QCABTUSB, USB\VID_13D3&PID_3624
+%VID_045E&PID_0C9E% = QCABTUSBB3B, USB\VID_045E&PID_0C9E
+
+;Generic OEM sections
+[QCABTUSB]
+include    = bth.inf
+needs      = BthUsb.NT
+CopyFiles  = BtFilter.Files
+
+[QCABTUSB.HW]
+include    = bth.inf
+needs      = BthUsb.NT.HW
+Needs      = BthLEExtendedAdvertisingOptIn.HW
+AddReg     = QCABTUSB.HW.AddReg
+
+[QCABTUSB.Services]
+include    = bth.inf
+needs      = BthUsb.NT.Services
+AddService = BtFilter,,BtFilterService
+
+[QCABTUSB.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"BtFilter"
+HKR,,"LowerFilters",0x00010000,"BtFilter"
+HKR,,"VsMsftOpCode",0x00010001,0xFD70
+
+[QCABTUSBB3B]
+include    = bth.inf
+needs      = BthUsb.NT
+CopyFiles  = BtFilter.Files
+
+[QCABTUSBB3B.HW]
+include    = bth.inf
+needs      = BthUsb.NT.HW
+Needs      = BthLEExtendedAdvertisingOptIn.HW
+AddReg     = QCABTUSBB3B.HW.AddReg
+
+[QCABTUSBB3B.Services]
+include    = bth.inf
+needs      = BthUsb.NT.Services
+AddService = BtFilter,,BtFilterService
+
+[QCABTUSBB3B.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"BtFilter"
+HKR,,"LowerFilters",0x00010000,"BtFilter"
+HKR,,"VsMsftOpCode",0x00010001,0xFD70
+HKR,,"QCASwiftPair",0x00010001,1
+HKR,,"DisableA2dpOffload",0x00010001,1
+HKR,,"NvmFileName",0x00010000,"ramps_0x00190200_1b3b_LEHP.dfu"
+
+;board 0112
+[QCABTUSBSWIFTPAIRLEA]
+include    = bth.inf
+needs      = BthUsb.NT
+CopyFiles  = BtFilter.Files
+
+[QCABTUSBSWIFTPAIRLEA.HW]
+include    = bth.inf
+needs      = BthUsb.NT.HW
+Needs      = BthLEExtendedAdvertisingOptIn.HW
+Needs      = BthLEConnectedIsochronousStreamsOptIn.HW
+AddReg     = QCABTUSBSWIFTPAIRLEA.HW.AddReg
+
+[QCABTUSBSWIFTPAIRLEA.Services]
+include    = bth.inf
+needs      = BthUsb.NT.Services
+AddService = BtFilter,,BtFilterService
+
+[QCABTUSBSWIFTPAIRLEA.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"BtFilter"
+HKR,,"LowerFilters",0x00010000,"BtFilter"
+HKR,,"VsMsftOpCode",0x00010001,0xFD70
+HKR,,"QCASwiftPair",0x00010001,1
+
+[QCABTUSBLEA]
+include    = bth.inf
+needs      = BthUsb.NT
+CopyFiles  = BtFilter.Files
+
+[QCABTUSBLEA.HW]
+include    = bth.inf
+needs      = BthUsb.NT.HW
+Needs      = BthLEExtendedAdvertisingOptIn.HW
+Needs      = BthLEConnectedIsochronousStreamsOptIn.HW
+AddReg     = QCABTUSBLEA.HW.AddReg
+
+[QCABTUSBLEA.Services]
+include    = bth.inf
+needs      = BthUsb.NT.Services
+AddService = BtFilter,,BtFilterService
+
+[QCABTUSBLEA.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"BtFilter"
+HKR,,"LowerFilters",0x00010000,"BtFilter"
+HKR,,"VsMsftOpCode",0x00010001,0xFD70
+
+;BLELIB
+;[QCABTUSBBLELIB]
+;include    = bth.inf
+;needs      = BthUsb.NT
+;CopyFiles  = BtFilter.Files
+
+;[QCABTUSBBLELIB.HW]
+;include    = bth.inf
+;needs      = BthUsb.NT.HW
+;AddReg     = BtFilterBLELIB.HW.AddReg
+
+;[QCABTUSBBLELIB.Services]
+;include    = bth.inf
+;needs      = BthUsb.NT.Services
+;AddService = BtFilter,,BtFilterService
+
+;[BtFilterBLELIB.HW.AddReg]
+;HKR,,"UpperFilters",0x00010000,"BtFilter"
+;HKR,,"LowerFilters",0x00010000,"BtFilter"
+;HKR,,"VsMsftOpCode",0x00010001,0xFD70
+;HKR,,"BleLibSupport",0x00010001,0x1
+;BLELIB End
+
+;BORDID start, add registry DetectBoardId.
+[QCABTUSBBORDID]
+include    = bth.inf
+needs      = BthUsb.NT
+CopyFiles  = BtFilter.Files
+
+[QCABTUSBBORDID.HW]
+include    = bth.inf
+needs      = BthUsb.NT.HW
+Needs      = BthLEExtendedAdvertisingOptIn.HW
+Needs      = BthLEConnectedIsochronousStreamsOptIn.HW
+AddReg     = QCABTUSBBORDID.HW.AddReg
+
+[QCABTUSBBORDID.Services]
+include    = bth.inf
+needs      = BthUsb.NT.Services
+AddService = BtFilter,,BtFilterService
+
+[QCABTUSBBORDID.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"BtFilter"
+HKR,,"LowerFilters",0x00010000,"BtFilter"
+HKR,,"VsMsftOpCode",0x00010001,0xFD70
+HKR,,"DetectBoardId",0x00010001,1
+;BORDID
+
+[BtFilterService]
+DisplayName    = "BtFilter"
+ServiceType    = 1 ; KERNEL_DRIVER
+StartType      = 3 ; DEMAND START
+ErrorControl   = 1 ; ERROR_NORMAL
+ServiceBinary  = %12%\btfilter.sys
+AddReg         = BtFilter.AddReg
+
+[BtFilter.AddReg]
+HKR,Parameters,FirmwareBinFolder,0x00000,"\SystemRoot\System32\drivers\"
+HKR,Parameters,BtFilterWakeUpEnable,0x00010003,0
+HKR,Parameters,BtFilterDeviceDetection,0x00010003,0
+HKR,Parameters,DownloadFirmwareFlags,0x00010001,7
+HKR,Parameters,EnableFirmwareDump,0x00010003,2
+HKR,Parameters,HciDumpSize,0x00010001,256
+HKR,Parameters,BtSnoopHciEnabled,0x00010001,0
+HKR,Parameters,HspDumpToWlan,0x00010001,0
+HKR,Parameters,HspPldr,0x00010001,0
+
+;Common sections
+[BtFilter.Files]
+btfilter.sys
+
+AthrBT_0x00190200.dfu
+
+ramps_0x00190200.dfu
+ramps_0x00190200_0106.dfu
+ramps_0x00190200_0108.dfu
+ramps_0x00190200_0109.dfu
+ramps_0x00190200_010a.dfu
+ramps_0x00190200_010c.dfu
+ramps_0x00190200_010e.dfu
+ramps_0x00190200_0110.dfu
+ramps_0x00190200_0111.dfu
+ramps_0x00190200_0112.dfu
+ramps_0x00190200_011e.dfu
+ramps_0x00190200_0120.dfu
+ramps_0x00190200_1b3b.dfu
+
+ramps_0x00190200_LEHP.dfu
+ramps_0x00190200_0106_LEHP.dfu
+ramps_0x00190200_0108_LEHP.dfu
+ramps_0x00190200_0109_LEHP.dfu
+ramps_0x00190200_010a_LEHP.dfu
+ramps_0x00190200_010c_LEHP.dfu
+ramps_0x00190200_010e_LEHP.dfu
+ramps_0x00190200_0110_LEHP.dfu
+ramps_0x00190200_0111_LEHP.dfu
+ramps_0x00190200_0112_LEHP.dfu
+ramps_0x00190200_011e_LEHP.dfu
+ramps_0x00190200_0120_LEHP.dfu
+ramps_0x00190200_1b3b_LEHP.dfu
+
+[Strings]
+ProviderName       = "Qualcomm Atheros Communications"
+ManufacturerName   = "Qualcomm Atheros Communications"
+SourceDisk         = "Qualcomm Atheros CD"
+
+VID_0CF3&PID_E700  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_0489&PID_E0F3  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_0489&PID_E0FC  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_0489&PID_E100  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_0489&PID_E103  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_0489&PID_E10A  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_0489&PID_E10D  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_0489&PID_E11B  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_0489&PID_E11C  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_0489&PID_E11F  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_0489&PID_E141  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_0489&PID_E14D  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_2C7C&PID_0130  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_2C7C&PID_0131  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_2C7C&PID_0132  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_13D3&PID_3623  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_13D3&PID_3624  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
+VID_045E&PID_0C9E  = "Qualcomm FastConnect 7800 Dual Bluetooth Adapter"
