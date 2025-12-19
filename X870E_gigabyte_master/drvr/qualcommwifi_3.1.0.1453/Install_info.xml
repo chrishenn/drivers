@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Driver>
+	<Install Driver_Desp="Qualcomm Wi-Fi Driver" Driver_Path_Index="WLAN\"/>
+</Driver>

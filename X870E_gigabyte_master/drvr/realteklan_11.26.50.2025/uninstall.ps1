@@ -1,0 +1,1 @@
+start-process -wait "$psscriptroot\setup.exe" -a "/s /f1""$psscriptroot\uninstall.iss"""
