@@ -1,5 +1,5 @@
 ;-------------------------------------------------------------------------------
-; 
+; INTEL CONFIDENTIAL
 ;
 ; Copyright (c) 2013-2018 Intel Corporation All Rights Reserved 
 ;
@@ -25,7 +25,7 @@ Signature = "$Windows NT$"
 Class = HIDClass
 ClassGuid = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
 Provider = %INTEL%
-DriverVer = 06/04/2025,2.2.2.17
+DriverVer = 04/25/2024,2.2.2.10
 CatalogFile = HidEventFilter.cat
 PnpLockDown = 1
 
@@ -86,14 +86,11 @@ CopyDriverLegacy = 12
 ; HWID for WCL
 %HidEventFilter% = HidEventFilter, ACPI\INTC10F1
 
-; 
+; HWID for NVL
 %HidEventFilter% = HidEventFilter, ACPI\INTC10F2
 
-;
+; HWID for RZL
 %HidEventFilter% = HidEventFilter, ACPI\INTC110E
-
-;
-%HidEventFilter% = HidEventFilter, ACPI\INTC1134
 
 [INTEL.NTamd64.10.0]
 %HidEventFilter% = HidEventFilterLegacy, ACPI\INT33D5
