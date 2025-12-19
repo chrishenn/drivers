@@ -1,4 +1,7 @@
 function install () {
+    write-host ''
+    write-host ''
+
     foreach ($dir in get-childitem "$psscriptroot\drvr" -directory) {
         $setup = get-childitem $dir -filter "instupd.exe"
         if (-not $setup) {
