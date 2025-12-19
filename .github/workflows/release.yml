@@ -29,18 +29,18 @@ jobs:
         path: intel.zip
         overwrite: 'true'
 
-#    - name: Archive Release
-#      uses: thedoctor0/zip-release@0.7.6
-#      with:
-#        type: 'zip'
-#        filename: 'Z790_gigabyte_udac.zip'
-#        path: './Z790_gigabyte_udac'
-#    - name: Upload Artifact
-#      uses: actions/upload-artifact@v4
-#      with:
-#        name: Z790_gigabyte_udac.zip
-#        path: Z790_gigabyte_udac.zip
-#        overwrite: 'true'
+    - name: Archive Release
+      uses: thedoctor0/zip-release@0.7.6
+      with:
+        type: 'zip'
+        filename: 'Z790_gigabyte_udac.zip'
+        path: './Z790_gigabyte_udac'
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Z790_gigabyte_udac.zip
+        path: Z790_gigabyte_udac.zip
+        overwrite: 'true'
 
   release:
     name: release
@@ -53,18 +53,18 @@ jobs:
         with:
           name: intel.zip
           path: zips
-#      - name: Download Artifacts
-#        uses: actions/download-artifact@v4
-#        with:
-#          name: Z790_gigabyte_udac.zip
-#          path: zips
+      - name: Download Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: Z790_gigabyte_udac.zip
+          path: zips
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           files: |
             zips/intel.zip
-#            zips/Z790_gigabyte_udac.zip
+            zips/Z790_gigabyte_udac.zip
           tag_name: ${{ github.ref_name }}
           body: "Automated release of ${{ github.ref_name }}."
         env:
