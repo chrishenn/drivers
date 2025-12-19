@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Driver>
+    <Install Driver_Desp="Intel(R) Serial IO Driver for Raptor Lake" Driver_Desp_Index="804"
+             Driver_Path_Index="Chipset/SerialIO/" Driver_Exe_File_Index="SetupSerialIO.exe" Driver_Ver_Index="98"
+             Driver_Option_Index="13" Current_Ver_Index="30.100.2417.30" W7_Index="0" W764_Index="0" W8_Index="0"
+             W864_Index="0" W10_Index="0" W1064_Index="1"/>
+</Driver>

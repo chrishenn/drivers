@@ -1,0 +1,310 @@
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.26.0710.2025_20250710 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.94
+NIC Driver version :
+Win11
+i.   rt68<>.sys :       1168.026.0710.2025
+ii.  rt68d<>.sys :      1166.026.0710.2025
+iii. rt25<>.sys :       1125.026.0710.2025
+iv.  rt25d<>.sys :      1124.026.0710.2025
+v.   rtots640<>.sys:    10.076.0514.2025
+vi.  rt26<>.sys :       1126.026.0710.2025
+vii. rt27<>.sys :       1127.026.0710.2025
+viii. rt27d<>.sys :     1110.026.0710.2025
+
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.25.0422.2025_20250422 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.94
+NIC Driver version :
+Win11
+i.   rt68<>.sys :       1168.025.0422.2025
+ii.  rt68d<>.sys :      1166.025.0422.2025
+iii. rt25<>.sys :       1125.025.0422.2025
+iv.  rt25d<>.sys :      1124.025.0422.2025
+v.   rtots640<>.sys:    10.075.0324.2025
+vi.  rt26<>.sys :       1126.025.0422.2025
+vii. rt27<>.sys :       1127.025.0422.2025
+viii. rt27d<>.sys :     1110.025.0422.2025
+
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.24.0318.2025_20250318 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.94
+NIC Driver version :
+Win11
+i.   rt68<>.sys :       1168.024.0318.2025
+ii.  rt68d<>.sys :      1166.024.0318.2025
+iii. rt25<>.sys :       1125.024.0318.2025
+iv.  rt25d<>.sys :      1124.024.0318.2025
+v.   rtots640<>.sys:    10.074.1128.2024
+vi.  rt26<>.sys :       1126.024.0318.2025
+vii. rt27<>.sys :       1127.024.0318.2025
+viii. rt27d<>.sys :     1110.024.0318.2025
+
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.023.0225.2025_20250225 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.94
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.023.0225.2025
+ii.  rt68d<>.sys :   1166.023.0225.2025
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.22.1118.2024_20241118 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.94
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.022.1118.2024
+ii.  rt68d<>.sys :   1166.022.1118.2024
+iii. rt25<>.sys :    1125.022.1118.2024
+iv.  rt25d<>.sys :   1124.022.1118.2024
+v.   rtots640<>.sys: 10.074.1128.2024
+vi.  rt26<>.sys :    1126.022.1118.2024
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.21.0903.2024_20240903 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.94
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.021.0903.2024
+ii.  rt68d<>.sys :   1166.021.0903.2024
+iii. rt25<>.sys :    1125.021.0903.2024
+iv.  rt25d<>.sys :   1124.021.0903.2024
+v.   rtots640<>.sys: 10.073.0815.2024
+vi.  rt26<>.sys :    1126.021.0903.2024
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.20.0729.2024_20240729 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.94
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.020.0729.2024
+ii.  rt68d<>.sys :   1166.020.0729.2024
+iii. rt25<>.sys :    1125.020.0729.2024
+iv.  rt25d<>.sys :   1124.020.0729.2024
+v.   rtots640<>.sys: 10.072.0524.2024
+vi.  rt26<>.sys :    1126.020.0729.2024
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.19.0704.2024_20240704 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.94
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.019.0704.2024
+ii.  rt68d<>.sys :   1166.019.0704.2024
+iii. rt25<>.sys :    1125.019.0704.2024
+iv.  rt25d<>.sys :   1124.019.0704.2024
+v.   rtots640<>.sys: 10.072.0524.2024
+vi.  rt26<>.sys :    1126.019.0704.2024
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.18.0312.2024_20240312 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.94
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.018.0312.2024
+ii.  rt68d<>.sys :   1166.018.0312.2024
+iii. rt25<>.sys :    1125.018.0312.2024
+iv.  rt25d<>.sys :   1124.018.0312.2024
+v.   rtots640<>.sys: 10.071.0312.2024
+vi.  rt26<>.sys :    1126.018.0312.2024
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.17.0131.2024_20240131 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.94
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.017.0131.2024
+ii.  rt68d<>.sys :   1166.017.0131.2024
+iii. rt25<>.sys :    1125.017.0131.2024
+iv.  rt25d<>.sys :   1124.017.0131.2024
+v.   rtots640<>.sys: 10.069.1121.2023
+vi.  rt26<>.sys :    1126.017.0131.2024
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.16.1123.2023_20231123 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.94
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.016.1123.2023
+ii.  rt68d<>.sys :   1166.016.1123.2023
+iii. rt25<>.sys :    1125.016.1123.2023
+iv.  rt25d<>.sys :   1124.016.1123.2023
+v.   rtots640<>.sys: 10.069.1121.2023
+vi.  rt26<>.sys :    1126.016.1123.2023
+
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.15.0717.2023_20230717 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.93
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.015.0717.2023
+ii.  rt68d<>.sys :   1166.015.0717.2023
+iii. rt25<>.sys :    1125.015.0717.2023
+iv.  rt25d<>.sys :   1124.015.0717.2023
+v.   rtots640<>.sys: 10.068.0815.2023
+vi.  rt26<>.sys :    1126.015.0717.2023
+
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.14.0613.2023_20230613 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.93
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.014.0613.2023
+ii.  rt68d<>.sys :   1166.014.0613.2023
+iii. rt25<>.sys :    1125.014.0613.2023
+iv.  rt25d<>.sys :   1124.014.0613.2023
+v.   rtots640<>.sys: 10.065.0421.2023
+vi.  rt26<>.sys :    1126.014.0613.2023
+
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.13.0424.2023_20230424 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.93
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.013.0424.2023
+ii.  rt68d<>.sys :   1166.013.0424.2023
+iii. rt25<>.sys :    1125.013.0424.2023
+iv.  rt25d<>.sys :   1124.013.0424.2023
+v.   rtots640<>.sys: 10.065.0421.2023
+vi.  rt26<>.sys :    1126.013.0424.2023
+
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.12.0320.2023_20230320 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.93
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.012.0320.2023
+ii.  rt68d<>.sys :   1166.012.0320.2023
+iii. rt25<>.sys :    1125.012.0320.2023
+iv.  rt25d<>.sys :   1124.012.0320.2023
+v.   rtots640<>.sys: 10.064.0316.2023
+vi.  rt26<>.sys :    1126.012.0320.2023
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.11.1206.2022_20221206 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.90
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.011.1206.2022
+ii.  rt68d<>.sys :   1166.011.1206.2022
+iii. rt25<>.sys :    1125.011.1206.2022
+iv.  rt25d<>.sys :   1124.011.1206.2022
+v.   rtots640<>.sys: 10.063.1014.2022
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.10.0720.2022_20220720 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.90
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.010.0720.2022
+ii.  rt68d<>.sys :   1166.010.0720.2022
+iii. rt25<>.sys :    1125.010.0720.2022
+iv.  rt25d<>.sys :   1124.010.0720.2022
+v.   rtots640<>.sys: 10.063.1014.2022
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.9.0614.2022_20220627 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.90
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.009.0614.2022
+ii.  rt68d<>.sys :   1166.009.0614.2022
+iii. rt25<>.sys :    1125.009.0614.2022
+iv.  rt25d<>.sys :   1124.009.0614.2022
+v.   rtots640<>.sys: 10.059.0425.2022
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.8.0515.2022_20220616 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.90
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.008.0515.2022
+ii.  rt68d<>.sys :   1166.008.0515.2022
+iii. rt25<>.sys :    1125.008.0515.2022
+iv.  rt25d<>.sys :   1124.008.0515.2022
+v.   rtots640<>.sys: 10.059.0425.2022
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.7.0318.2022_20220112 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.87
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.007.0318.2022
+ii.  rt68d<>.sys :   1166.007.0318.2022
+iii. rt25<>.sys :    1125.007.0318.2022
+iv.  rt25d<>.sys :   1124.007.0318.2022
+v.   rtots640<>.sys: 10.056.0119.2022
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.6.0215.2022_20220112 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.87
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.006.0215.2022
+ii.  rt68d<>.sys :   1166.006.0215.2022
+iii. rt25<>.sys :    1125.006.0215.2022
+iv.  rt25d<>.sys :   1124.006.0215.2022
+v.   rtots640<>.sys: 10.056.0119.2022
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.5.0112.2022_20220112 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.87
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.005.0112.2022
+ii.  rt68d<>.sys :   1166.005.0112.2022
+iii. rt25<>.sys :    1125.005.0112.2022
+iv.  rt25d<>.sys :   1124.005.0112.2022
+v.   rtots640<>.sys: 10.056.0119.2022
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.4.1201.2021_20211201 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.87
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.004.1201.2021
+ii.  rt68d<>.sys :   1166.004.1201.2021
+iii. rt25<>.sys :    1125.004.1201.2021
+iv.  rt25d<>.sys :   1124.004.1201.2021
+v.   rt36<>.sys :    1136.004.1201.2021
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.3.1022.2021_20211022 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.87
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.003.1022.2021
+ii.  rt68d<>.sys :   1166.003.1022.2021
+iii. rt25<>.sys :    1125.003.1022.2021
+iv.  rt25d<>.sys :   1124.003.1022.2021
+v.   rt36<>.sys :    1136.003.1022.2021
+vi.   rtots640<>.sys: 10.050.0511.2021
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.2.0909.2021_20210909 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.87
+NIC Driver version :
+Win11
+i.   rt68<>.sys :    1168.002.0909.2021
+ii.  rt68d<>.sys :   1166.002.0909.2021
+iii. rt25<>.sys :    1125.002.0909.2021
+iv.  rt25d<>.sys :   1124.002.0909.2021
+v.   rtots640<>.sys: 10.050.0511.2021
+
+/* --- Normal Realtek_PCIE_Ethernet_Controller_11.1.0714.2021_20210817 --- */
+Installshield version : 1.0.0.38
+RTInstaller version : 1.0.0.87
+NIC Driver version :
+Win11
+i.   rt68<>.sys : 1168.001.0714.2021
+ii.  rt68d<>.sys : 1166.001.0714.2021
+iii. rt25<>.sys : 1125.001.0714.2021
+iv. rt25d<>.sys : 1124.001.0714.2021
+v.   rtots640<>.sys: 10.050.0511.2021
