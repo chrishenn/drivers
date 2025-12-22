@@ -3,13 +3,17 @@ function install () {
     write-host ''
 
     foreach ($dir in get-childitem "$psscriptroot\drvr" -directory) {
-        $setup = get-childitem $dir -filter "instupd.exe"
-        if (-not $setup) {
-            write-host -f r "error: couldn't find instupd.exe for $dir"
+        if ($setup = get-childitem $dir -filter "instupd.exe") {
+            write-host -f c "installing: $setup"
+            start-process -wait $setup.fullname -a '-s'
             continue
         }
-        write-host -f c "installing: $setup"
-        start-process -wait $setup.fullname -a '-s'
+        if ($setup = get-childitem $dir -filter "install.ps1") {
+            write-host -f c "installing: $setup"
+            & $setup.fullname
+            continue
+        }
+        write-host -f r "error: couldn't find instupd.exe nor install.ps1 for $dir"
     }
 }
 install
