@@ -1,0 +1,475 @@
+        DBOM for MUP Package
+
+.Inf files : 28
+.Sys files : 12
+.Dll files : 79
+.Exe files : 11
+
+--------------------------------
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I\MVA
+     Version : 01.00.3832.00
+         INTELMVAEXTENSION.INF
+         INTELMVA.DLL
+         SETTINGS.XML
+         WWECONFIGURATIONDLL.DLL
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I
+     Version : 01.00.3832.00
+         DETECTIONVERIFICATIONDRV.INF
+         DETECTIONVERIFICATIONDRV.DLL
+         MULTICHANNELWOV.DLL
+         MULTICHANNELWOVCFG.DLL
+         INTELWOVSDK.DLL
+         INTELSSTPREPROCSTREAMER.DLL
+         AEC_WOV_STR_DEF_1CH_IN.TF
+         AEC_WOV_STR_DEF_2CH_IN.TF
+         AEC_WOV_STR_DEF_4CH_IN.TF
+         STR_1CH_IN_1_OUT_BYPASS.TF
+         STR_2CH_IN_1_OUT_BYPASS.TF
+         STR_4CH_IN_1_OUT_BYPASS.TF
+         WAKEWORDENGINE.DLL
+
+==== Provider : INTEL CORPORATION
+     Location : 15063\Drivers\I
+     Version : 03.05.00.1578
+         GNA.INF
+         GNA.SYS
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I
+     Version : 10.29.00.12108
+         INTCAUDIOBUS.INF
+         INTCAUDIOBUS.SYS
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I
+     Version : 10.29.00.12108
+         INTCBTAU.INF
+         INTCBTAU.SYS
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I
+     Version : 10.29.00.12108
+         INTCBTLE.INF
+         INTCBTLE.SYS
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I
+     Version : 10.29.00.12108
+         INTCDMIC.INF
+         INTCDMIC.SYS
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I
+     Version : 10.29.00.12108
+         INTCOED.INF
+         INTCOED.SYS
+         INTCOEDTOPOLOGY.OEC
+         INTCOEDTOPOLOGY.XML
+         DSP_FW_EHL_RELEASE.BIN
+         DSP_FW_TGL_RELEASE.BIN
+         DSP_FW_ADL_RELEASE.BIN
+         DSP_FW_ADL-N_RELEASE.BIN
+         DSP_LIB_ASRC_EHL_RELEASE.BIN
+         DSP_LIB_INTEL_WOV_EHL_RELEASE.BIN
+         DSP_LIB_WHM_EHL_RELEASE.BIN
+         DSP_LIB_ASRC_TGL_RELEASE.BIN
+         DSP_LIB_INTEL_WOV_TGL_RELEASE.BIN
+         DSP_LIB_WHM_TGL_RELEASE.BIN
+         DSP_LIB_ASRC_ADL_RELEASE.BIN
+         DSP_LIB_HPF_ADL_RELEASE.BIN
+         DSP_LIB_INTEL_WOV_ADL_RELEASE.BIN
+         DSP_LIB_WHM_ADL_RELEASE.BIN
+         DSP_LIB_ASRC_ADL-N_RELEASE.BIN
+         DSP_LIB_HPF_ADL-N_RELEASE.BIN
+         DSP_LIB_INTEL_WOV_ADL-N_RELEASE.BIN
+         DSP_LIB_WHM_ADL-N_RELEASE.BIN
+         INTELWOV_DATA_MANIFEST.TXT
+         MODEL_METADATA_ADL.XML
+         MODEL_METADATA_RPL.XML
+         MODEL_METADATA_TGL.XML
+         WOV_EXTERNALS_TGL_FF_INTELWOV_2.9.1159.0_1421.TXT
+         ALEFUJ_JA-JP_HQ.DSP
+         ALEFUJ_JA-JP_HQ_ECHO.TH
+         ALEFUJ_JA-JP_HQ_FUJ.TH
+         ALENEC_JA-JP_HQ.DSP
+         ALENEC_JA-JP_HQ_ECHO.TH
+         ALENEC_JA-JP_HQ_NEC.TH
+         ECHO_DE-AT_EX.ALCO
+         ECHO_DE-AT_EX.ETH
+         ECHO_DE-AT_EX.HSC
+         ECHO_DE-AT_EX.TH
+         ECHO_DE-AT_HQ.DSP
+         ECHO_DE-AT_HQ.TH
+         ECHO_DE-DE_EX.ALCO
+         ECHO_DE-DE_EX.ETH
+         ECHO_DE-DE_EX.HSC
+         ECHO_DE-DE_EX.TH
+         ECHO_DE-DE_HQ.DSP
+         ECHO_DE-DE_HQ.TH
+         ECHO_EN-AU_EX.ALCO
+         ECHO_EN-AU_EX.ETH
+         ECHO_EN-AU_EX.HSC
+         ECHO_EN-AU_EX.TH
+         ECHO_EN-AU_HQ.DSP
+         ECHO_EN-AU_HQ.TH
+         ECHO_EN-CA_EX.ALCO
+         ECHO_EN-CA_EX.ETH
+         ECHO_EN-CA_EX.HSC
+         ECHO_EN-CA_EX.TH
+         ECHO_EN-CA_HQ.DSP
+         ECHO_EN-CA_HQ.TH
+         ECHO_EN-GB_EX.ALCO
+         ECHO_EN-GB_EX.ETH
+         ECHO_EN-GB_EX.HSC
+         ECHO_EN-GB_EX.TH
+         ECHO_EN-GB_HQ.DSP
+         ECHO_EN-GB_HQ.TH
+         ECHO_EN-IE_EX.ALCO
+         ECHO_EN-IE_EX.ETH
+         ECHO_EN-IE_EX.HSC
+         ECHO_EN-IE_EX.TH
+         ECHO_EN-IE_HQ.DSP
+         ECHO_EN-IE_HQ.TH
+         ECHO_EN-IN_EX.ALCO
+         ECHO_EN-IN_EX.ETH
+         ECHO_EN-IN_EX.HSC
+         ECHO_EN-IN_EX.TH
+         ECHO_EN-IN_HQ.DSP
+         ECHO_EN-IN_HQ.TH
+         ECHO_EN-NZ_EX.ALCO
+         ECHO_EN-NZ_EX.ETH
+         ECHO_EN-NZ_EX.HSC
+         ECHO_EN-NZ_EX.TH
+         ECHO_EN-NZ_HQ.DSP
+         ECHO_EN-NZ_HQ.TH
+         ECHO_EN-US_EX.ALCO
+         ECHO_EN-US_EX.ETH
+         ECHO_EN-US_EX.HSC
+         ECHO_EN-US_EX.TH
+         ECHO_EN-US_HQ.DSP
+         ECHO_EN-US_HQ.TH
+         ECHO_ES-ES_EX.ALCO
+         ECHO_ES-ES_EX.ETH
+         ECHO_ES-ES_EX.HSC
+         ECHO_ES-ES_EX.TH
+         ECHO_ES-ES_HQ.DSP
+         ECHO_ES-ES_HQ.TH
+         ECHO_ES-MX_EX.ALCO
+         ECHO_ES-MX_EX.ETH
+         ECHO_ES-MX_EX.HSC
+         ECHO_ES-MX_EX.TH
+         ECHO_ES-MX_HQ.DSP
+         ECHO_ES-MX_HQ.TH
+         ECHO_ES-US_EX.ALCO
+         ECHO_ES-US_EX.ETH
+         ECHO_ES-US_EX.HSC
+         ECHO_ES-US_EX.TH
+         ECHO_ES-US_HQ.DSP
+         ECHO_ES-US_HQ.TH
+         ECHO_FR-CA_EX.ALCO
+         ECHO_FR-CA_EX.ETH
+         ECHO_FR-CA_EX.HSC
+         ECHO_FR-CA_EX.TH
+         ECHO_FR-CA_HQ.DSP
+         ECHO_FR-CA_HQ.TH
+         ECHO_FR-FR_EX.ALCO
+         ECHO_FR-FR_EX.ETH
+         ECHO_FR-FR_EX.HSC
+         ECHO_FR-FR_EX.TH
+         ECHO_FR-FR_HQ.DSP
+         ECHO_FR-FR_HQ.TH
+         ECHO_IT-IT_EX.ALCO
+         ECHO_IT-IT_EX.ETH
+         ECHO_IT-IT_EX.HSC
+         ECHO_IT-IT_EX.TH
+         ECHO_IT-IT_HQ.DSP
+         ECHO_IT-IT_HQ.TH
+         ECHO_JA-JP_EX.ALCO
+         ECHO_JA-JP_EX.ETH
+         ECHO_JA-JP_EX.HSC
+         ECHO_JA-JP_EX.TH
+         ECHO_JA-JP_HQ.DSP
+         ECHO_JA-JP_HQ.TH
+         ECHO_PT-BR_EX.ALCO
+         ECHO_PT-BR_EX.ETH
+         ECHO_PT-BR_EX.HSC
+         ECHO_PT-BR_EX.TH
+         ECHO_PT-BR_HQ.DSP
+         ECHO_PT-BR_HQ.TH
+         FUJ_JA-JP_EX.ALCO
+         FUJ_JA-JP_EX.ETH
+         FUJ_JA-JP_EX.HSC
+         FUJ_JA-JP_EX.TH
+         FUJ_JA-JP_HQ.TH
+         LENO2_ZH-CN_EX.ALCO
+         LENO2_ZH-CN_EX.ETH
+         LENO2_ZH-CN_EX.HSC
+         LENO2_ZH-CN_EX.TH
+         LENO2_ZH-CN_HQ.DSP
+         LENO2_ZH-CN_HQ.TH
+         MS_EN-US_EX.ALCO
+         MS_EN-US_EX.ETH
+         MS_EN-US_EX.HSC
+         MS_EN-US_EX.TH
+         MS_EN-US_HQ.DSP
+         MS_EN-US_HQ.TH
+         MSLEXA_EN-US_HQ.DSP
+         MSLEXA_EN-US_HQ_ECHO.TH
+         MSLEXA_EN-US_HQ_MS.TH
+         NEC_JA-JP_EX.ALCO
+         NEC_JA-JP_EX.ETH
+         NEC_JA-JP_EX.HSC
+         NEC_JA-JP_EX.TH
+         NEC_JA-JP_HQ.TH
+         NIXI_ZH-CN_HQ.DSP
+         NIXI_ZH-CN_HQ_LENO2.TH
+         NIXI_ZH-CN_HQ_YOGA.TH
+         MULTICHANNELWOV.DLL
+         MULTICHANNELWOVCFG.DLL
+         TENCENT_ZH-CN_EX.ALCO
+         TENCENT_ZH-CN_EX.ETH
+         TENCENT_ZH-CN_EX.HSC
+         TENCENT_ZH-CN_EX.TH
+         TENCENT_ZH-CN_HQ.DSP
+         TENCENT_ZH-CN_HQ.TH
+         XIAOMI_ZH-CN_EX.ALCO
+         XIAOMI_ZH-CN_EX.ETH
+         XIAOMI_ZH-CN_EX.HSC
+         XIAOMI_ZH-CN_EX.TH
+         XIAOMI_ZH-CN_HQ.DSP
+         XIAOMI_ZH-CN_HQ.TH
+         YOGA_ZH-CN_EX.ALCO
+         YOGA_ZH-CN_EX.ETH
+         YOGA_ZH-CN_EX.HSC
+         YOGA_ZH-CN_EX.TH
+         YOGA_ZH-CN_HQ.DSP
+         YOGA_ZH-CN_HQ.TH
+         INTELACADLL.DLL
+         INTELACADLL.NETFULL.DLL
+         CONTROLMODULE.DLL
+         INTELAUDIOSERVICE.EXE
+         INTELAUDIOSERVICE.EXE.CONFIG
+         INTELSSTPREPROCSTREAMER.DLL
+         NATIVEAPIADAPTER.DLL
+         RPCSERVER.DLL
+         WPPLOGGERDLL.DLL
+         AEC_ASR_STR_DEF_1CH_IN.TF
+         AEC_ASR_STR_DEF_2CH_IN.TF
+         AEC_ASR_STR_DEF_2CH_IN_GNA.TF
+         AEC_ASR_STR_DEF_4CH_IN.TF
+         AEC_ASR_STR_DEF_4CH_IN_GNA.TF
+         AEC_DNS_STR_DEF_1CH_IN_48K_GNA.TF
+         AEC_DNS_STR_DEF_1CH_IN_GNA.TF
+         AEC_DNS_STR_DEF_2CH_IN_48K_GNA.TF
+         AEC_DNS_STR_DEF_2CH_IN_GNA.TF
+         AEC_WOV_STR_DEF_1CH_IN.TF
+         AEC_WOV_STR_DEF_2CH_IN.TF
+         AEC_WOV_STR_DEF_2CH_IN_GNA.TF
+         AEC_WOV_STR_DEF_4CH_IN.TF
+         AEC_WOV_STR_DEF_4CH_IN_GNA.TF
+         DEFAULTCONFIGS.XML
+         STR_1CH_IN_1_OUT_BYPASS.TF
+         STR_2CH_IN_1_OUT_BYPASS.TF
+         STR_4CH_IN_1_OUT_BYPASS.TF
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I
+     Version : 10.29.00.11750
+         INTCOED_RENDERHEADROOM.INF
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I
+     Version : 10.29.00.12108
+         INTCSDW.INF
+         INTCSDW.SYS
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I
+     Version : 10.29.00.12108
+         INTCSDWBUS.INF
+         INTCSDWBUS.SYS
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I
+     Version : 10.29.00.12108
+         INTCSST.INF
+         INTCSST.SYS
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I
+     Version : 10.29.00.12108
+         INTCUSB.INF
+         INTCUSB.SYS
+
+==== Provider : INTEL(R) CORPORATION
+     Location : 15063\Drivers\I
+     Version : 10.29.00.12108
+         LT6911AU.INF
+         LT6911AU.SYS
+
+==== Provider : REALTEK SEMICONDUCTOR CORP.
+     Location : 15063\Drivers\Win64\7\1
+     Version : 10.35.210.044
+         INTCOED_OEMLIBPATH.INF
+         ADL_VLLDP14X_LITE_LIB.BIN
+         ADL_RTKSEP96_LIB.BIN
+         ADL_RTKSEP481_LIB.BIN
+         ADL_RTKSEP483_LIB.BIN
+         ADL_RTKSEP182_LIB.BIN
+         ADL_MA11_LIB.BIN
+         ADL_TISA_2P2.BIN
+         ADL_TISA_STEREO_LIB.BIN
+         ADL_ELLIPTIC_LIB.BIN
+
+==== Provider : REALTEK SEMICONDUCTOR CORP.
+     Location : 15063\Drivers\Win64\7\2
+     Version : 10.23.1.46
+         INTCSDWEXTPPM_DELL.INF
+
+==== Provider : REALTEK SEMICONDUCTOR CORP.
+     Location : 15063\Drivers\Win64\7\3
+     Version : 10.23.1.110
+         INTCSDWEXT_DELL_WAVES_MA11.INF
+
+==== Provider : REALTEK SEMICONDUCTOR CORP.
+     Location : 15063\Drivers\Win64\7\3
+     Version : 10.23.1.110
+         INTCSDWEXT_DELL_WAVES_MA11_0B34.INF
+
+==== Provider : REALTEK SEMICONDUCTOR CORP.
+     Location : 15063\Drivers\Win64\7\3
+     Version : 10.23.1.110
+         INTCSDWEXT_DELL_WAVES_MA11_0B8C.INF
+
+==== Provider : REALTEK SEMICONDUCTOR CORP.
+     Location : 15063\Drivers\Win64\7\3
+     Version : 10.23.1.110
+         INTCSDWEXT_DELL_WAVES_MA8MV5.INF
+
+==== Provider : REALTEK SEMICONDUCTOR CORP.
+     Location : 15063\Drivers\Win64\7\3
+     Version : 10.23.1.110
+         INTCSDWEXT_DELL_WAVES_MA8MV5_OFF.INF
+
+==== Provider : REALTEK
+     Location : 15063\Drivers\Win64\7\4
+     Version : 12.0.6000.1097
+         REALTEKINTAPO.INF
+         RTKINTU64.DLL
+
+==== Provider : REALTEK
+     Location : 15063\Drivers\Win64\7\5
+     Version : 13.0.6000.1097
+         REALTEKINTAPO.INF
+         RTKINTU64.DLL
+
+==== Provider : REALTEK
+     Location : 15063\Drivers\Win64\7\6
+     Version : 1.0.763.0
+         REALTEKSERVICE.INF
+         RTKCFG64.DLL
+         RTKAPI64U.DLL
+         RTKAUDUSERVICE64.EXE
+         RTDATAPROC64.DLL
+         RTCOM64.DLL
+         RTKAUDUSERVICECONF64.DLL
+         RTKAUDUSERVICERES64.DLL
+         SPEAKERVERFDLL.DLL
+         MONOSEPARATIONENROLLDLL.DLL
+
+==== Provider : DELL
+     Location : 15063\Drivers\Win64\9\8
+     Version : 1.8.2.244
+         DELLAUDIOEXTWAVES.INF
+         MAXXAUDIO_DATA.CAB
+
+==== Provider : WAVES
+     Location : 15063\Drivers\Win64\9\8
+     Version : 8.2.0.16933
+         WAVESAPO11DE.INF
+         MAXXAUDIOCAPTURE64.DLL
+         MAXXAUDIORENDER64.DLL
+         MAXXAUDIORENDERAVX64.DLL
+         MAXXAUDIOAPOSHELL64.DLL
+         WAVESSVC64.EXE
+         WAVESSYSSVC64.EXE
+         MAXXAUDIOINTELKABYLAKE64.DLL
+         KBLCOEFSRENDER51064.DLL
+         KBLCOEFSRENDER51164.DLL
+         KBLCOEFSRENDER51264.DLL
+         CFL_MA8_REDUCED_COEFS64.DLL
+         CFL_MA8_FULL_COEFS64.DLL
+         CFL_MA9_REDUCED_COEFS64.DLL
+         CFL_MA9_FULL_COEFS64.DLL
+         ISST_MA10_FULL_COEFS64.DLL
+         ISST_MA10_REDUCED_COEFS64.DLL
+         ISST_MA11_FULL_COEFS64.DLL
+         ISST_MA11_REDUCED_COEFS64.DLL
+         ISST_MA11_FULL_COEFS64_11_1.DLL
+         ISST_MA11_REDUCED_COEFS64_11_1.DLL
+         ISST_MA12_FULL_COEFS64.DLL
+         ISST_MA12_REDUCED_COEFS64.DLL
+         AMD_MA8_COEFS64.DLL
+         AMD_MA10_COEFS64.DLL
+         HEADTRACKERLIB.DLL
+         HEADTRACKER.BIN
+         FACE.XML
+         SSTTOAPO64.DLL
+         VOIPAUTOMATICDETECTION.XML
+         WAVESAUDIOSERVICE.EXE
+         WAVESAUDIOSERVICE.EXE.CONFIG
+         INTELOPENVINO.CAB
+         NNRESOURCES64_MA11.DLL
+         MAXXAUDIOAPOSHELLRPCNATIVE64.DLL
+
+==== Provider : WAVES
+     Location : 15063\Drivers\Win64\9\8
+     Version : 8.2.0.16933
+         WAVESAPO11DE_SC.INF
+         MAXXAUDIOCAPTURE64.DLL
+         MAXXAUDIORENDER64.DLL
+         MAXXAUDIORENDERAVX64.DLL
+         MAXXAUDIOAPOSHELL64.DLL
+         WAVESSVC64.EXE
+         WAVESSYSSVC64.EXE
+         MAXXAUDIOINTELKABYLAKE64.DLL
+         KBLCOEFSRENDER51064.DLL
+         KBLCOEFSRENDER51164.DLL
+         KBLCOEFSRENDER51264.DLL
+         CFL_MA8_REDUCED_COEFS64.DLL
+         CFL_MA8_FULL_COEFS64.DLL
+         CFL_MA9_REDUCED_COEFS64.DLL
+         CFL_MA9_FULL_COEFS64.DLL
+         ISST_MA10_FULL_COEFS64.DLL
+         ISST_MA10_REDUCED_COEFS64.DLL
+         ISST_MA11_FULL_COEFS64.DLL
+         ISST_MA11_REDUCED_COEFS64.DLL
+         ISST_MA11_FULL_COEFS64_11_1.DLL
+         ISST_MA11_REDUCED_COEFS64_11_1.DLL
+         ISST_MA12_FULL_COEFS64.DLL
+         ISST_MA12_REDUCED_COEFS64.DLL
+         AMD_MA8_COEFS64.DLL
+         AMD_MA10_COEFS64.DLL
+         HEADTRACKERLIB.DLL
+         HEADTRACKER.BIN
+         FACE.XML
+         SSTTOAPO64.DLL
+         VOIPAUTOMATICDETECTION.XML
+         WAVESAUDIOSERVICE.EXE
+         WAVESAUDIOSERVICE.EXE.CONFIG
+         INTELOPENVINO.CAB
+         NNRESOURCES64_MA11.DLL
+         MAXXAUDIOAPOSHELLRPCNATIVE64.DLL
+
+==== Provider : REALTEK SEMICONDUCTOR CORP.
+     Location : 15063\Drivers\Win64
+     Version : 10.0.251.5
+         RTKSDWHWCODEC_DELL.INF
+         RTKSDWHWCODEC.SYS
+         RTKSDWHWCODEC.DAT
+         RTAIODAT.DAT
+

@@ -3,7 +3,7 @@ function interactive {
     return ([Environment]::UserInteractive -and -not $noni)
 }
 
-function install () {
+function install {
     write-host ''
     write-host ''
     if (-not (interactive)) {

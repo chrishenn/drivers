@@ -14,7 +14,10 @@ jobs:
     name: build
     runs-on: ubuntu-latest
     steps:
+
     - uses: actions/checkout@master
+      with:
+        lfs: true
 
     - name: Archive Release
       uses: thedoctor0/zip-release@0.7.6
@@ -55,6 +58,19 @@ jobs:
         path: X870E_gigabyte_master.zip
         overwrite: 'true'
 
+    - name: Archive Release
+      uses: thedoctor0/zip-release@0.7.6
+      with:
+        type: 'zip'
+        filename: 'XPS9320.zip'
+        path: './XPS9320'
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: XPS9320.zip
+        path: XPS9320.zip
+        overwrite: 'true'
+
   release:
     name: release
     needs: build
@@ -76,6 +92,11 @@ jobs:
         with:
           name: X870E_gigabyte_master.zip
           path: zips
+      - name: Download Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: XPS9320.zip
+          path: zips
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
@@ -84,6 +105,7 @@ jobs:
             zips/intel.zip
             zips/Z790_gigabyte_udac.zip
             zips/X870E_gigabyte_master.zip
+            zips/XPS9320.zip
           tag_name: ${{ github.ref_name }}
           body: "Automated release of ${{ github.ref_name }}."
         env:

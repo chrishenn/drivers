@@ -3,5 +3,5 @@
 Driver Packages for windows machines
 
 ```bash
-git tag -a v0.0.10 -m v0.0.10 && git push --tags
+git tag -a v0.0.10 -m v0.0.10 -f && git push --tags -f 
 ```

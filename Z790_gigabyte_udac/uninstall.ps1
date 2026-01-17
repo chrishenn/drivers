@@ -1,4 +1,4 @@
-function uninstall () {
+function uninstall {
     write-host ''
     write-host ''
 
