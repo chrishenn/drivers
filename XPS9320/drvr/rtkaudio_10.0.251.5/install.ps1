@@ -29,7 +29,7 @@ function bloat_waves {
 function install {
     $setup = gci $psscriptroot -file -filter 'dellmup.exe'
     write-host -f c "installing: $($setup.fullname)"
-    start-process -wait -nonewwindow $setup.fullname -a '/s'
+    start-process -wait -nonewwindow $setup.fullname -a '/s /v "/FORCE=true /FORCERESTART=false"'
 
     write-host -f c 'removing waves audio'
     bloat_waves
