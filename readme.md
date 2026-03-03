@@ -12,5 +12,5 @@ These repos are meant to be used together:
 ## dev
 
 ```bash
-git tag -a v0.0.10 -m v0.0.10 -f && git push --tags -f 
+git tag -a v0.0.12 -m v0.0.12 && git push --tags
 ```
