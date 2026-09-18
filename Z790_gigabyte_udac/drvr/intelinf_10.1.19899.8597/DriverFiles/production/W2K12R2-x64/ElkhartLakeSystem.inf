@@ -3,7 +3,7 @@
 ; **  Filename: ElkhartLakeSystem.inf                       **
 ; **  Abstract: Assigns the null driver to devices          **
 ; **            for yellow-bang removal and                 **
-; **            brands Intel(R) devices                     ** 
+; **            brands Intel(R) devices                     **
 ; ************************************************************
 ; ************************************************************
 
@@ -119,7 +119,7 @@ ACPI\INTC1032Desc="Intel(R) Platform TCC - 1032"
 
 
 ; Copyright (c) 2003-2019 Intel Corporation
-; 
+;
 ; ********************************************************************************
 ; Intel is making no claims of usability, efficacy or warranty.
 ; ********************************************************************************
@@ -139,5 +139,5 @@ ACPI\INTC1032Desc="Intel(R) Platform TCC - 1032"
 ; changes to this document at any time, without notice.
 ; ********************************************************************************
 ; ********************************************************************************
-; 
+;
 ; * Third-party brands and names are the property of their respective owners.

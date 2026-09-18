@@ -3,7 +3,7 @@
 ; **  Filename: CannonLake-LPSDHost.inf                     **
 ; **  Abstract: Assigns the null driver to devices          **
 ; **            for yellow-bang removal and                 **
-; **            brands Intel(R) devices                     ** 
+; **            brands Intel(R) devices                     **
 ; ************************************************************
 ; ************************************************************
 
@@ -55,7 +55,7 @@ PCI\VEN_8086&DEV_9DF5Desc="Intel(R) SCS3: SD Card - 9DF5"
 
 
 ; Copyright (c) 2003-2019 Intel Corporation
-; 
+;
 ; ********************************************************************************
 ; Intel is making no claims of usability, efficacy or warranty.
 ; ********************************************************************************
@@ -75,5 +75,5 @@ PCI\VEN_8086&DEV_9DF5Desc="Intel(R) SCS3: SD Card - 9DF5"
 ; changes to this document at any time, without notice.
 ; ********************************************************************************
 ; ********************************************************************************
-; 
+;
 ; * Third-party brands and names are the property of their respective owners.

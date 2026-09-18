@@ -560,7 +560,7 @@ HKR,SSTPPCfg\{CBDD3DB0-85AE-4466-B18D-504FD8E7082B}\HP\EFX,Position,0x10001,1
 HKR,SSTPPCfg\{CBDD3DB0-85AE-4466-B18D-504FD8E7082B}\SPK\EFX,Enabled,0x10001,1
 HKR,SSTPPCfg\{CBDD3DB0-85AE-4466-B18D-504FD8E7082B}\SPK\EFX,Position,0x10001,1
 
-;Dolby v1.4.1 lite 
+;Dolby v1.4.1 lite
 HKR,SSTPPCfg\{34A7CA4C-B652-4585-9A05-33C8FF01FB81}\SPK\MFX,Enabled,0x10001,1
 HKR,SSTPPCfg\{34A7CA4C-B652-4585-9A05-33C8FF01FB81}\SPK\MFX,Position,0x10001,1
 HKR,SSTPPCfg\{34A7CA4C-B652-4585-9A05-33C8FF01FB81}\HP\MFX,Enabled,0x10001,1
@@ -915,7 +915,7 @@ RearMicInTopoDeviceName="Realtek HD rear Mic in Mixer"
 
 FrontPanelHeadphoneWaveDeviceName="Realtek HD Audio front output"
 FrontPanelHeadphoneTopoDeviceName="Realtek HD front output mixer"
-FrontHPOutDacName="HD Headphone DAC for front panel" 
+FrontHPOutDacName="HD Headphone DAC for front panel"
 
 DigitalInputWaveDeviceName="Realtek HD Digital input"
 DigitalInputTopoDeviceName="Realtek HD Digital input mixer"

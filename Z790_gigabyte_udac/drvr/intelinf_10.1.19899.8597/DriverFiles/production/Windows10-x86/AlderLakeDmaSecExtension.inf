@@ -2,7 +2,7 @@
 ; ************************************************************
 ; **  Filename: AlderLakeDmaSecExtension.inf                **
 ; **  Abstract: Adds devices in registry as AllowedBus      **
-; **            for BitLocker device encryption support     ** 
+; **            for BitLocker device encryption support     **
 ; ************************************************************
 ; ************************************************************
 
@@ -103,7 +103,7 @@ DmaSecExtension=DmaSecurity AllowedBus Extension
 
 
 ; Copyright (c) 2003-2019 Intel Corporation
-; 
+;
 ; ********************************************************************************
 ; Intel is making no claims of usability, efficacy or warranty.
 ; ********************************************************************************
@@ -123,5 +123,5 @@ DmaSecExtension=DmaSecurity AllowedBus Extension
 ; changes to this document at any time, without notice.
 ; ********************************************************************************
 ; ********************************************************************************
-; 
+;
 ; * Third-party brands and names are the property of their respective owners.

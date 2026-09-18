@@ -3,7 +3,7 @@
 ; **  Filename: EmmitsburgSystem.inf                        **
 ; **  Abstract: Assigns the null driver to devices          **
 ; **            for yellow-bang removal and                 **
-; **            brands Intel(R) devices                     ** 
+; **            brands Intel(R) devices                     **
 ; ************************************************************
 ; ************************************************************
 
@@ -129,7 +129,7 @@ ACPI\INTC1071Desc="Intel(R) GPIO Controller - 1071"
 
 
 ; Copyright (c) 2003-2019 Intel Corporation
-; 
+;
 ; ********************************************************************************
 ; Intel is making no claims of usability, efficacy or warranty.
 ; ********************************************************************************
@@ -149,5 +149,5 @@ ACPI\INTC1071Desc="Intel(R) GPIO Controller - 1071"
 ; changes to this document at any time, without notice.
 ; ********************************************************************************
 ; ********************************************************************************
-; 
+;
 ; * Third-party brands and names are the property of their respective owners.

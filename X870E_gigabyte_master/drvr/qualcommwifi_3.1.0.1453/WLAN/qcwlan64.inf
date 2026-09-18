@@ -69,13 +69,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_BERYLLIUM.
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -108,13 +108,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM865.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -144,13 +144,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM865.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -180,13 +180,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM865.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -216,13 +216,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM865.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -253,13 +253,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM865.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -290,13 +290,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM825.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -310,13 +310,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM865.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -362,13 +362,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM825.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -398,13 +398,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM835.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -434,13 +434,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM835.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -470,13 +470,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM835.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -506,13 +506,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM835.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -542,13 +542,13 @@ CopyFiles       = QcWlan.CopyFiles, QcWlanFWFile.CopyFiles, QcWlan_BD_NCM835.Cop
 *MediaType      = 16        ; NdisMediumNative802_11
 *PhysicalMediaType = 9      ; NdisPhysicalMediumNative802_11
 NumberOfNetworkInterfaces   = 5; For WIFI DIRECT DEVICE AND ROLE ADAPTER
-; TODO: Set this to 0 if your device is not a physical device. 
+; TODO: Set this to 0 if your device is not a physical device.
 *IfConnectorPresent     = 1
-; In most cases, you can keep these at their default values. 
-*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED 
-*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE 
-*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST 
-*HardwareLoopback       = 0     ; false 
+; In most cases, you can keep these at their default values.
+*ConnectionType         = 1     ; NET_IF_CONNECTION_DEDICATED
+*DirectionType          = 0     ; NET_IF_DIRECTION_SENDRECEIVE
+*AccessType             = 2     ; NET_IF_ACCESS_BROADCAST
+*HardwareLoopback       = 0     ; false
 
 Include         = machine.inf
 
@@ -979,7 +979,7 @@ QcWlan_BD_NCM865.CopyFiles        = 12
 QcWlan_BD_NCM825.CopyFiles        = 12
 QcWlan_BD_LE_NCM825.CopyFiles     = 12
 QcWlan_BD_A_NCM865.CopyFiles      = 12
-QcWlan_BD_NCM835.CopyFiles        = 12		
+QcWlan_BD_NCM835.CopyFiles        = 12
 
 [Strings]
 Msft                         = "Microsoft"
@@ -990,7 +990,7 @@ Enable                       = "Enable"
 Disable                      = "Disable"
 RoamAggressive               = "Roaming aggressiveness"
 RssiLowest                   = "1.Lowest"
-RssiMedium-low               = "2.Medium-low"   
+RssiMedium-low               = "2.Medium-low"
 RssiMedium                   = "3.Medium"
 RssiMedium-high              = "4.Medium-high"
 RssiHighest                  = "5.Highest"

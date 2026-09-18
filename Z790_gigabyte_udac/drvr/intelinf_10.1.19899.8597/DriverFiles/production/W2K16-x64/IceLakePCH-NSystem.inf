@@ -3,7 +3,7 @@
 ; **  Filename: IceLakePCH-NSystem.inf                      **
 ; **  Abstract: Assigns the null driver to devices          **
 ; **            for yellow-bang removal and                 **
-; **            brands Intel(R) devices                     ** 
+; **            brands Intel(R) devices                     **
 ; ************************************************************
 ; ************************************************************
 
@@ -200,7 +200,7 @@ PCI\VEN_8086&DEV_38BFDesc="Intel(R) PCI Express Root Port #8 - 38BF"
 
 
 ; Copyright (c) 2003-2019 Intel Corporation
-; 
+;
 ; ********************************************************************************
 ; Intel is making no claims of usability, efficacy or warranty.
 ; ********************************************************************************
@@ -220,5 +220,5 @@ PCI\VEN_8086&DEV_38BFDesc="Intel(R) PCI Express Root Port #8 - 38BF"
 ; changes to this document at any time, without notice.
 ; ********************************************************************************
 ; ********************************************************************************
-; 
+;
 ; * Third-party brands and names are the property of their respective owners.

@@ -1175,7 +1175,7 @@ RearMicInTopoDeviceName="Realtek HD rear Mic in Mixer"
 
 FrontPanelHeadphoneWaveDeviceName="Realtek HD Audio front output"
 FrontPanelHeadphoneTopoDeviceName="Realtek HD front output mixer"
-FrontHPOutDacName="HD Headphone DAC for front panel" 
+FrontHPOutDacName="HD Headphone DAC for front panel"
 
 DigitalInputWaveDeviceName="Realtek HD Digital input"
 DigitalInputTopoDeviceName="Realtek HD Digital input mixer"

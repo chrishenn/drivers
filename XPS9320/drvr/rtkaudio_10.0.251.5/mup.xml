@@ -495,7 +495,7 @@
 	<behaviors>
 		<behavior name="attended">
 			<vendoroption>
-			 	<optionvalue switch="" valuedelimiter="" requiresvalue="false" /> 
+			 	<optionvalue switch="" valuedelimiter="" requiresvalue="false" />
  			</vendoroption>
 		</behavior>
 		<behavior name="unattended">
