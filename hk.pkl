@@ -8,9 +8,9 @@ steps {
   ["just"] = Builtins.just_format
   ["mise"] = Builtins.mise
 
-  ["actionlint"] = Builtins.actionlint
-  ["pinact"] = Builtins.pinact
   ["pinact_update"] = Builtins.pinact_update
+  ["pinact"] = Builtins.pinact
+  ["actionlint"] = Builtins.actionlint
   ["zizmor"] = (Builtins.zizmor) {
     fix = "zizmor --no-progress --fix=all {{files}}"
     output_summary = "hide"
